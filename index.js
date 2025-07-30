@@ -16,7 +16,7 @@ app.use(
 const mongoUrl = 
   "mongodb+srv://yadavdeepak13012001:z7EVXUVMkg1zW1sG@cluster0.y8edlx8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-  // z7EVXUVMkg1zW1sG
+  
 app.get("/get-data", (req, res) => {
   res.status(200).json({ message: "this is test api" });
 });
